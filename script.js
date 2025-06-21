@@ -1,4 +1,3 @@
-
 const products = [
   { category: "Helmets", name: "RACING HELMET", price: 120, image: "image/RACING HELMET.jpg" },
   { category: "Gloves", name: "RACING GLOVES", price: 40, image: "image/RACING GLOVES.jpg" },
