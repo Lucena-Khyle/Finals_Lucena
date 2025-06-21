@@ -1,13 +1,14 @@
+
 const products = [
-  { category: "Helmets", name: "Racing Helmet", price: 120, image: "images/helmet.jpg" },
-  { category: "Gloves", name: "Riding Gloves", price: 40, image: "images/gloves.jpg" },
-  { category: "Jackets", name: "Riding Jacket", price: 180, image: "images/jacket.jpg" },
-  { category: "Accessories", name: "Mirror", price: 35, image: "images/mirror.jpg" },
-  { category: "Lighting", name: "Headlight", price: 85, image: "images/light.jpg" },
-  { category: "Fuel System", name: "Fuel Tank", price: 150, image: "images/tank.jpg" },
-  { category: "Transmission", name: "Gear Set", price: 200, image: "images/gear.jpg" },
-  { category: "Clutch", name: "Clutch Lever", price: 50, image: "images/clutch.png" },
-  { category: "Seats", name: "Comfort Seat", price: 90, image: "images/seat.jpg" }
+  { category: "Helmets", name: "RACING HELMET", price: 120, image: "image/RACING HELMET.jpg" },
+  { category: "Gloves", name: "RACING GLOVES", price: 40, image: "image/RACING GLOVES.jpg" },
+  { category: "Jackets", name: "RIDING JACKET", price: 180, image: "image/RIDING JACKET.jpg" },
+  { category: "Accessories", name: "SIDE MIRROR", price: 35, image: "image/SIDE MIRROR.jpg" },
+  { category: "Lighting", name: "HEAD LIGHT FOR KEEWAY CR 150", price: 85, image: "image/HEAD LIGHT FOR KEEWAY CR 150.jpg" },
+  { category: "Fuel System", name: "SKYLINE CR FUEL TANK", price: 150, image: "image/SKYLINE CR FUEL TANK.jpg" },
+  { category: "gear", name: "GEAR SET", price: 200, image: "image/GEAR SET.jpg" },
+  { category: "Clutch", name: "BREMBO RCS FOLDING CLUTCH LEVER", price: 50, image: "image/BREMBO RCS FOLDING CLUTCH LEVER.jpg" },
+  { category: "Seats", name: "CLASSIC SEAT FOR CR 150", price: 90, image: "image/CLASSIC SEAT FOR CR 150.jpg" }
 ];
 
 
