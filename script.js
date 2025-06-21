@@ -5,10 +5,32 @@ const products = [
   { category: "Accessories", name: "SIDE MIRROR", price: 35, image: "image/SIDE MIRROR.jpg" },
   { category: "Lighting", name: "HEAD LIGHT FOR KEEWAY CR 150", price: 85, image: "image/HEAD LIGHT FOR KEEWAY CR 150.jpg" },
   { category: "Fuel System", name: "SKYLINE CR FUEL TANK", price: 150, image: "image/SKYLINE CR FUEL TANK.jpg" },
-  { category: "gear", name: "GEAR SET", price: 200, image: "image/GEAR SET.jpg" },
+  { category: "Gear", name: "GEAR SET", price: 200, image: "image/GEAR SET.jpg" },
   { category: "Clutch", name: "BREMBO RCS FOLDING CLUTCH LEVER", price: 50, image: "image/BREMBO RCS FOLDING CLUTCH LEVER.jpg" },
-  { category: "Seats", name: "CLASSIC SEAT FOR CR 150", price: 90, image: "image/CLASSIC SEAT FOR CR 150.jpg" }
+  { category: "Seats", name: "CLASSIC SEAT FOR CR 150", price: 90, image: "image/CLASSIC SEAT FOR CR 150.jpg" },
+
+  { category: "Helmets", name: "EVO HELMET", price: 110, image: "image/EVO.jpg" },
+  { category: "Helmets", name: "CLASSIC HELMET", price: 130, image: "image/CLASSIC.jpg" },
+  { category: "Gloves", name: "CLASSIC GLOVES", price: 45, image: "image/CLASSIC GLOVE.jpg" },
+  { category: "Jackets", name: "TOURING JACKET", price: 160, image: "image/TOURING.jpg" },
+  { category: "Jackets", name: "SUMMER JACKET", price: 120, image: "image/SUMMER.jpg" },
+  { category: "Lighting", name: "LED HEADLIGHT", price: 95, image: "image/LED.jpg" },
+  { category: "Lighting", name: "MINI DRIVING LIGHT", price: 75, image: "image/MDL.jpg" },
+  { category: "Accessories", name: "HANDLEBAR GRIPS", price: 30, image: "image/HANDLE.jpg" },
+  { category: "Accessories", name: "CLASSIC SIDE MIRROR", price: 50, image: "image/MIRROR.jpg" },
+  { category: "Fuel System", name: "FUEL PUMP", price: 80, image: "image/FUEL PUMP.jpg" },
+  { category: "Fuel System", name: "FUEL FILTER", price: 25, image: "image/FILTER.jpg" },
+  { category: "Gear", name: "CLASSIC RIDING GEAR", price: 210, image: "image/CLASS RIDING GEAR.jpg" },
+  { category: "Gear", name: "OFF-ROAD GEAR", price: 250, image: "image/OFF.jpg" },
+  { category: "Clutch", name: "CNC CLUTCH LEVER", price: 70, image: "image/CNC.jpg" },
+  { category: "Clutch", name: "STANDARD CLUTCH", price: 40, image: "image/STANDARD CLUTCH LEVER.jpg" },
+  { category: "Seats", name: "RACING SEAT", price: 130, image: "image/RACING SEAT.jpg" },
+  { category: "Seats", name: "COMFORT SEAT COVER", price: 100, image: "image/COMPORT.jpg" },
+  { category: "Helmets", name: "ORIGINAL HNJ HELMET", price: 160, image: "image/HNJ.jpg" },
+  { category: "Jackets", name: "WINTER JACKET", price: 170, image: "image/WINTER.jpg" },
+  { category: "Lighting", name: "TUBE LIGHTING KIT", price: 65, image: "image/TUBE.jpg" }
 ];
+
 
 
 let cart = JSON.parse(localStorage.getItem("motovent_cart")) || [];
